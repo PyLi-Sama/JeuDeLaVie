@@ -83,13 +83,8 @@ cela se passe au niveau de la mémoire.
 - conio.h : Pour la détections des touches du clavier
 ---
 
-## 💻 Action du Jeu de la Vie
+## 🎮 Action du Jeu de la Vie  
 
-<p align="center">
-  
-  <img src="https://github.com/user-attachments/assets/4213247b-2c7c-4f28-b5a2-abb54b772ceb" alt="Action du Jeu de la Vie" />
-  
-  ### -> 🎮 Appuyez sur le lien pour voir le jeu en action !
+<https://github.com/user-attachments/assets/4ee40c07-e7e2-4f82-9fc9-ff5743d2dc69>
 
-
-</p>
+---

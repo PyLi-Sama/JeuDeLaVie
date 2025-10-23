@@ -31,23 +31,27 @@ cela se passe au niveau de la mémoire.
 ## ⚙️ Fonctionnalités
 ✅ Choix de la taille de la grille (X et Y).
 
-<img width="831" height="183" alt="Dimension de la grille" src="https://github.com/user-attachments/assets/58181418-c4b2-48fa-add8-cfbc8fdb3e95" />
+<img width="831" height="183" alt="Dimension de la grille" src="https://github.com/user-attachments/assets/ebadad41-5258-4dd1-ace3-d6c89280833c" />
+
 
 ✅ Choix du nombre et des positions initiales des cellules vivantes.
 
-<img width="875" height="139" alt="Initialisation du nombre de cellule de départ" src="https://github.com/user-attachments/assets/1a0a227f-40f6-432c-9a77-41a7fef526cf" />
+<img width="875" height="139" alt="Initialisation du nombre de cellule de départ" src="https://github.com/user-attachments/assets/2a4b1e3b-d905-4e2e-80ae-c57cb4fe9277" />
+
 
 ✅ Création des coordonnées des cellules de départ.
 
-<img width="875" height="139" alt="Initialisation du nombre de cellule de départ" src="https://github.com/user-attachments/assets/6237470a-3efb-4413-9538-5c39bc51f18d" />
+<img width="1443" height="324" alt="Coordonnées des cellules de départ" src="https://github.com/user-attachments/assets/a1ac4f92-366e-4d65-8ec4-21b9d70305ac" />
+
 
 ✅ Simulation automatique du jeu selon les règles de Conway.
 
-<img width="490" height="320" alt="Règle du Jeu de la Vie" src="https://github.com/user-attachments/assets/ff39fcfe-022a-4ccb-b6d0-9b644dee2279" />
+<img width="490" height="320" alt="Règle du Jeu de la Vie" src="https://github.com/user-attachments/assets/c4843efe-eab6-4570-8e01-430c86d79a62" />
 
 ✅ Affichage de la grille à chaque itération (0 pour cellule vivante, . pour cellule morte).
 
-<img width="412" height="262" alt="Affichage de la grille " src="https://github.com/user-attachments/assets/1f2ef891-e881-4d40-bc0d-90e5ba546ea1" />
+<img width="412" height="262" alt="Affichage de la grille " src="https://github.com/user-attachments/assets/11692a44-7ca3-421d-8002-72e46f54f1ef" />
+
 
 ✅ Contrôles interactifs :
 
@@ -61,7 +65,8 @@ cela se passe au niveau de la mémoire.
 
 > I → Revenir à la vitesse normale (1 s entre chaque itération).
 
-<img width="1022" height="539" alt="Capture touche du clavier" src="https://github.com/user-attachments/assets/df027751-d2cf-49f7-9abd-7da2fc29b49c" />
+<img width="1022" height="539" alt="Capture touche du clavier" src="https://github.com/user-attachments/assets/59be8aab-4786-4595-862f-b9816fa4b7f3" />
+
 
 ---
 

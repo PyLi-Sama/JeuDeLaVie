@@ -30,7 +30,7 @@ int main()
             int Partie = true;
             int SizeX = 0; //Initialisation de la grille sur X
             int SizeY = 0; //Initialisation de la grille sur Y
-            std::cout << "Définissez la taille de la grille sur les x et y: " << std::endl;
+            std::cout << "Definissez la taille de la grille sur les x et y: " << std::endl;
             std::cin >> SizeX >> SizeY;
             while (SizeX <= 0 || SizeY <= 0) //Boucle pour voir si les valeurs sont négtives ou égales à 0 pour avoir une grille fonctionnelle
             {
@@ -40,7 +40,7 @@ int main()
             int* Grid = new int[SizeX * SizeY] {0}; //Création d'un premier tableau dynamique pour la grille de base
             int* Tab_temp = new int[SizeX * SizeY] {0}; //Création d'un deuxième tableau pour les changements d'état des cellules
             int Nb_cellule_depart = 0;
-            std::cout << "Inscrivez le nombre de cellules vivantes de départ" << std::endl;
+            std::cout << "Inscrivez le nombre de cellules vivantes de depart" << std::endl;
             std::cin >> Nb_cellule_depart; //Nombre de cellule que le joueur veux initialiser avant le début de la partie
             while (Nb_cellule_depart <= 2) //Boucle pour éviter de ne pas avoir de vie dans notre tableau 
             {
@@ -52,7 +52,7 @@ int main()
             {
                 int Size_celluleX = 0;
                 int Size_celluleY = 0;
-                std::cout << "Mettez les coordonnées des cellules vivantes de départ" << std::endl;
+                std::cout << "Mettez les coordonnees des cellules vivantes de depart" << std::endl;
                 std::cin >> Size_celluleX >> Size_celluleY; //Coordonnées des cellules
                 while ((Size_celluleX <= 0 || Size_celluleY <= 0) && (Size_celluleX >= SizeX || Size_celluleY >= SizeY))
                 {
@@ -115,7 +115,7 @@ int main()
                     }
                     else if (Character != 32 && Character != 27 && Character != 122 || Character != 90 && Character == 115 || Character == 83) //Condition qui permet d'éviter d'utiliser d'autre touche que les touches préciser
                     {
-                        std::cout << "Ce n'est pas les bonnes touches, veuillez saisir les bonne touches ou ne rien faire";
+                        std::cout << "Ce n'est pas les bonnes touches, veuillez saisir les bonne touches ou ne rien faire" << std::endl;
                     }
                 }
 
@@ -144,7 +144,7 @@ int main()
                             }
                         }
                     }
-                    system("CLS");
+                    system("CLS"); // Clear de la grille permettant de générer une nouvelle grille sur la même position que la première
                     // Affichage de la grille
                     for (int X = 0; X < SizeX; X++) {
                         for (int Y = 0; Y < SizeY; Y++) {
@@ -163,7 +163,7 @@ int main()
                     std::cout << "Appuyez sur echap pour relancer ou quitter le jeu" << std::endl;
                     std::cout << "Appuyez sur z pour que le temps entre chaque iteration soit de 0.5s" << std::endl;
                     std::cout << "Appuyez sur s pour que le temps entre chaque iteration soit de 2s" << std::endl;
-                    std::cout << "Appuyez sur i pour que le temps revient à la valeur initial : 1s" << std::endl;
+                    std::cout << "Appuyez sur i pour que le temps revient a la valeur initial : 1s" << std::endl;
                 }
             }
 
